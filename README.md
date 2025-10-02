@@ -29,7 +29,7 @@ MillionApi/
 ├── Properties/
 ├── Program.cs
 ├── MillionApi.csproj
-└── Dockerfile
+├── Dockerfile
 └── Tests
 ```
 
