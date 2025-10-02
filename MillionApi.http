@@ -1,6 +1,6 @@
 @MillionApi_HostAddress = http://localhost:5189
 
-GET {{MillionApi_HostAddress}}/weatherforecast/
+GET {{MillionApi_HostAddress}}/Property/
 Accept: application/json
 
 ###
