@@ -85,7 +85,7 @@ graph LR
   - Cada capa tiene responsabilidades claras (presentación, lógica de negocio, persistencia).  
   - Evitar “código espagueti” mezclando capas.
 
-- **Pruebas (tests)** *(recomendado)*  
+- **Pruebas (tests)**  
   - Usar pruebas unitarias para la capa de dominio y servicios de aplicación.  
   - Usar pruebas de integración para repositorios e infraestructura.
 
