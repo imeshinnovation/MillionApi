@@ -129,15 +129,16 @@ Sigue estos pasos para ejecutar la API localmente:
 | Verbo | Ruta | Descripción | Parámetros / Body |
 |-------|------|-------------|---------------------|
 | GET   | /api/Property | Obtiene todos los items | — |
+| GET   | /api/Property/{id} | Obtiene los registros de un item | - |
 | POST  | /api/Property | Crea un nuevo item | `{ "name": "...", "valor": 123 }` |
 
 ---
 
-## 🧪 Pruebas (tests)
-
+## 🧪 Pruebas Unitarias con NUnit (tests)
 
 ```bash
 dotnet test
+Resumen de pruebas: total: 7; con errores: 0; correcto: 7;
 ```
 
 ---
