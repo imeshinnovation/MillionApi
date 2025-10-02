@@ -3,13 +3,13 @@ using MillionApi.Domain.Interfaces;
 
 namespace MillionApi.Application.Services
 {
-    public class PropertyService
+    public class PropertyService(IPropertyRepository repository) : IPropertyService
     {
-        private readonly IPropertyRepository _repository;
+        private readonly IPropertyRepository _repository = repository;
 
-        public PropertyService(IPropertyRepository repository)
+        public Task<Property> GetPropertyById(string id)
         {
-            _repository = repository;
+            return _repository.GetById(id);
         }
 
         public Task<List<Property>> GetProperties(string? name, string? address, decimal? minPrice, decimal? maxPrice)

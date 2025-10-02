@@ -11,13 +11,13 @@ builder.Services.Configure<MongoDBSettings>(
 
 // DI: usamos interfaz y repositorio
 builder.Services.AddScoped<IPropertyRepository, PropertyRepositoryMongo>();
-builder.Services.AddScoped<PropertyService>();
+builder.Services.AddScoped<IPropertyService, PropertyService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen(options =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Million API", Version = "v1" });
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Million API", Version = "v1" });
 });
 
 var app = builder.Build();

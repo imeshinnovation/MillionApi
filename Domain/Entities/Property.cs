@@ -13,6 +13,11 @@ namespace MillionApi.Domain.Entities
         public string Name { get; set; } = string.Empty;
         public string AddressProperty { get; set; } = string.Empty;
         public decimal PriceProperty { get; set; }
+
+        public bool IsValidPrice()
+        {
+            return PriceProperty > 0;
+        }
         public string ImageUrl { get; set; } = string.Empty;
     }
 }

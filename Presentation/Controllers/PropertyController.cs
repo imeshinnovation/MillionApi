@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using MillionApi.Application.Services;
 using MillionApi.Domain.Entities;
+using MillionApi.Domain.Interfaces;
 using MillionApi.Dtos;
 
 namespace MillionApi.Presentation.Controllers
@@ -9,9 +10,9 @@ namespace MillionApi.Presentation.Controllers
     [Route("api/[controller]")]
     public class PropertyController : ControllerBase
     {
-        private readonly PropertyService _propertyService;
+        private readonly IPropertyService _propertyService;
 
-        public PropertyController(PropertyService propertyService)
+        public PropertyController(IPropertyService propertyService)
         {
             _propertyService = propertyService;
         }
@@ -41,6 +42,15 @@ namespace MillionApi.Presentation.Controllers
 
             var result = await _propertyService.CreateProperty(property);
             return CreatedAtAction(nameof(GetProperties), new { id = result.Id }, result);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProperty(string id)  // ← Debe tener async Task
+        {
+            var property = await _propertyService.GetPropertyById(id);
+            if (property == null)
+                return NotFound();
+            return Ok(property);
         }
     }
 }

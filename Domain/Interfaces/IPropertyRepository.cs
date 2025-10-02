@@ -6,5 +6,6 @@ namespace MillionApi.Domain.Interfaces
     {
         Task<List<Property>> GetAsync(string? name, string? address, decimal? minPrice, decimal? maxPrice);
         Task<Property> CreateAsync(Property property);
+        Task<Property> GetById(string id);
     }
 }
