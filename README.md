@@ -114,7 +114,7 @@ Sigue estos pasos para ejecutar la API localmente:
    dotnet run --project MillionApi
    ```
 
-5. (Opcional) Si hay un contenedor Docker definido:
+5. El Proyecto se puede desplegar en un contenedor Docker:
    ```bash
    docker build -t millionapi .
    docker run -p 5000:80 millionapi
