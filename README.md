@@ -36,6 +36,7 @@
 [![SSDLC](https://img.shields.io/badge/SDLC-Security%20First-red)](https://owasp.org/www-project-proactive-controls/)
 [![Security](https://img.shields.io/badge/Security-Shift%20Left-blue)](https://devops.com/shifting-security-to-the-left/)
 [![Testing](https://img.shields.io/badge/Testing-NUnit-green)](https://nunit.org/)
+[![API Testing](https://img.shields.io/badge/Tested%20with-Insomnia-5849BE?style=for-the-badge&logo=insomnia&logoColor=white)](https://insomnia.rest/)
 
 ---
 
