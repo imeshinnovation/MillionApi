@@ -6,7 +6,7 @@
 <table width="100%">
 <tr>
 <td width="220" valign="top">
-<img src="./cosmodev.jpg" alt="CosmoDev" width="200" style="border-radius: 8px;">
+<img src="./cosmodev.jpeg" alt="CosmoDev" width="200" style="border-radius: 8px;">
 </td>
 <td valign="top">
 
@@ -199,7 +199,7 @@ Sigue estos pasos para ejecutar la API localmente:
   - Insomnia_MillionApi.yaml
 ```
 
-![Insomnia](./Insomnia.png)
+![Insomnia](./Insomnia.jpeg)
 
 ---
 
