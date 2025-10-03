@@ -12,18 +12,8 @@
 
 MillionApi es un servicio backend desarrollado en C# (.NET) que ofrece una API para manejar operaciones del dominio (negocio) de “Million”. El proyecto está organizado bajo principios como Arquitectura Limpia (Clean Architecture) y los principios SOLID, con capas claramente separadas: presentación, dominio, infraestructura, etc.
 
-El ciclo de vida de desarrollo del software (SDLC) es un marco que se utiliza para desarrollar, implementar y mantener el software. El marco implica la ejecución de varias tareas y actividades que se dividen en seis u ocho etapas para mejorar la calidad del software haciendo énfasis en el proceso. El propósito de esto es que sea posible medir y analizar el sistema, incorporar mejoras y, a su vez, supervisar el progreso y los costos. 
-
-Estas son las etapas del SDLC:
-
-Planificación: determinar el alcance y la finalidad del software
-Análisis de los requisitos: define las funciones que debe ejecutar el software
-Diseño: decidir los parámetros clave, como la arquitectura, las plataformas y las interfaces de usuario
-Desarrollo: crear e implementar el software
-Documentación: producir la información para que los usuarios y las partes interesadas puedan utilizar el sistema
-Pruebas: verificar que el software cumpla con los requisitos
-Implementación: poner el software a disposición de los usuarios
-Mantenimiento: solucionar los errores y los puntos vulnerables que se descubran en el sistema
+**El ciclo de vida de desarrollo del software seguro (SSDLC)**
+La implementación de procesos de seguridad eficaces requiere que los equipos apliquen el enfoque shift left, es decir, tomen las medidas de protección desde las primeras etapas del SDLC y en cada una de ellas. Hay ciertos pasos que se pueden seguir en cada etapa para lograr el ciclo de vida de desarrollo del software seguro (SSDLC), al final se realiza evaluación de componentes para identificar posibles vulnerabilidades en componente de terceros usados por NuGet.
 
 
 ---
