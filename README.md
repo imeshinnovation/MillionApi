@@ -3,16 +3,9 @@
 
 ## 🙋‍♂️ Desarrollado por:
 
-<img src="./cosmodev.jpg" alt="CosmoDev" width="100">
-
-**Alexander Rubio Cáceres**
-- Ingeniero de Software
-- Especialista en la Seguridad de la Información
-- Desarrollador FullStack Senior
-
-**Emails de Contacto**:  
-- imesh.innovation@gmail.com  
-- sigueme.android@gmail.com  
+ | |
+| :--- | :--- |
+| <img src="./cosmodev.jpg" alt="CosmoDev" width="100"> | **Alexander Rubio Cáceres**<br>- Ingeniero de Software<br>- Especialista en la Seguridad de la Información<br>- Desarrollador FullStack Senior<br><br>**Emails de Contacto**:<br>- imesh.innovation@gmail.com<br>- sigueme.android@gmail.com |
 
 ---
 
