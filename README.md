@@ -1,10 +1,16 @@
 
 # MillionApi
 
-**Autor / Owner**: Alexander Rubio Cáceres  
-**Contactos**:  
+**Autor / Owner**:
+Alexander Rubio Cáceres
+Ingeniero de Software
+Especialista en la Seguridad de la Información
+Desarrollador FullStack
+
+**Emails de Contacto**:  
 - imesh.innovation@gmail.com  
 - sigueme.android@gmail.com  
+
 
 ---
 
