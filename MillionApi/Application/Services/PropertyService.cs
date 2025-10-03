@@ -14,6 +14,10 @@ namespace MillionApi.Application.Services
 
         public Task<List<Property>> GetProperties(string? name, string? address, decimal? minPrice, decimal? maxPrice)
         {
+            if (minPrice.HasValue && maxPrice.HasValue && minPrice > maxPrice)
+            {
+                throw new ArgumentException("El precio mínimo no puede ser mayor al precio máximo");
+            }
             return _repository.GetAsync(name, address, minPrice, maxPrice);
         }
 

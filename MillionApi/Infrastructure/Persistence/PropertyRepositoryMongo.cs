@@ -7,7 +7,7 @@ namespace MillionApi.Infrastructure.Persistence
 {
     public class PropertyRepositoryMongo : IPropertyRepository
     {
-        private readonly IMongoCollection<Property> _properties;
+        private readonly IMongoCollection<Property> _propertiesCollection;
 
         public PropertyRepositoryMongo(IOptions<MongoDBSettings> mongoSettings)
         {
@@ -24,55 +24,65 @@ namespace MillionApi.Infrastructure.Persistence
 
             var client = new MongoClient(mongoSettings.Value.ConnectionString);
             var database = client.GetDatabase(mongoSettings.Value.DatabaseName);
-            _properties = database.GetCollection<Property>(mongoSettings.Value.CollectionName);
+            _propertiesCollection = database.GetCollection<Property>(settings.CollectionName);
         }
 
         public async Task<Property> GetById(string id)
         {
-            return await _properties.Find(p => p.Id == id).FirstOrDefaultAsync();
+            return await _propertiesCollection.Find(p => p.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<IEnumerable<Property>> GetAll()
         {
-            return await _properties.Find(_ => true).ToListAsync();
+            return await _propertiesCollection.Find(_ => true).ToListAsync();
         }
 
         public async Task<Property> CreateAsync(Property property)
         {
-            await _properties.InsertOneAsync(property);
+            await _propertiesCollection.InsertOneAsync(property);
             return property;
         }
 
-        public async Task<List<Property>> GetAsync(string? city, string? type, decimal? minPrice, decimal? maxPrice)
+        public async Task<List<Property>> GetAsync(string? name, string? address, decimal? minPrice, decimal? maxPrice)
         {
-            var filterBuilder = Builders<Property>.Filter;
-            var filter = filterBuilder.Empty;
+            var filter = Builders<Property>.Filter.Empty;
 
-            if (!string.IsNullOrEmpty(city))
-                filter &= filterBuilder.Eq(p => p.AddressProperty, city);
+            if (!string.IsNullOrEmpty(name))
+            {
+                filter &= Builders<Property>.Filter.Regex(p => p.Name, new MongoDB.Bson.BsonRegularExpression(name, "i"));
+            }
+
+            if (!string.IsNullOrEmpty(address))
+            {
+                filter &= Builders<Property>.Filter.Regex(p => p.AddressProperty, new MongoDB.Bson.BsonRegularExpression(address, "i"));
+            }
 
             if (minPrice.HasValue)
-                filter &= filterBuilder.Gte(p => p.PriceProperty, minPrice.Value);
+            {
+                filter &= Builders<Property>.Filter.Gte(p => p.PriceProperty, minPrice.Value);
+            }
 
             if (maxPrice.HasValue)
-                filter &= filterBuilder.Lte(p => p.PriceProperty, maxPrice.Value);
+            {
+                filter &= Builders<Property>.Filter.Lte(p => p.PriceProperty, maxPrice.Value);
+            }
 
-            return await _properties.Find(filter).ToListAsync();
+            return await _propertiesCollection.Find(filter).ToListAsync();
         }
 
         public async Task Add(Property property)
         {
-            await _properties.InsertOneAsync(property);
+            await _propertiesCollection.InsertOneAsync(property);
         }
 
         public async Task Update(Property property)
         {
-            await _properties.ReplaceOneAsync(p => p.Id == property.Id, property);
+            await _propertiesCollection.ReplaceOneAsync(p => p.Id == property.Id, property);
         }
 
         public async Task Delete(string id)
         {
-            await _properties.DeleteOneAsync(p => p.Id == id);
+            await _propertiesCollection.DeleteOneAsync(p => p.Id == id);
         }
     }
 }
