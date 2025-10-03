@@ -30,7 +30,12 @@ MillionApi/
 ├── Program.cs
 ├── MillionApi.csproj
 ├── Dockerfile
-└── Tests
+
+Tests
+├── Application
+├── Domain
+├── Infrastructure
+├── Presentation
 ```
 
 ### Capas y responsabilidades
@@ -43,7 +48,7 @@ MillionApi/
 | **Dtos** | Modelos de transferencia | Data Transfer Objects usados en la comunicación entre capas |
 | **Infrastructure / Persistence** | Implementaciones concretas | Persistencia (EF Core, accesos a BD), adaptadores hacia recursos externos |
 | **Properties / Configuración** | Archivos de configuración | appsettings, constantes del proyecto, etc. |
-| **Tests** | Archivos de Pruebas Unitarias | Ejecutar la validación de los componentes del API Rest |
+| **Tests** | Directorio de Pruebas Unitarias | Ejecutar la validación de los componentes del API Rest |
 
 Este diseño refleja la filosofía de **Clean Architecture**, donde las dependencias apuntan hacia el dominio (núcleo), y las capas externas (infraestructura, presentación) dependen de abstracciones definidas en el dominio o en la capa de aplicación.
 
@@ -113,7 +118,7 @@ Sigue estos pasos para ejecutar la API localmente:
 
 4. Ejecuta la API:
    ```bash
-   dotnet run --project MillionApi
+   dotnet run --project MillionApi/MillionApi.csproj
    ```
 
 5. El Proyecto se puede desplegar en un contenedor Docker:
