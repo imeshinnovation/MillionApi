@@ -157,12 +157,13 @@ Sigue estos pasos para ejecutar la API localmente:
 
 5. El Proyecto se puede desplegar en Arquitectura Docker:
 
-  Servicios:
-  - mongodbapi
-  - millionapi
-
+  
    ```bash
-   
+
+   Servicios:
+   - mongodbapi
+   - millionapi
+
    dotnet publish -c Release -o ./publish
    docker-compose up -d --build
 
