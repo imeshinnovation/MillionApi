@@ -3,10 +3,10 @@
 
 ## 🙋‍♂️ Desarrollado por:
 
-<table>
+<table width="100%">
 <tr>
-<td width="120" valign="top">
-<img src="./cosmodev.jpg" alt="CosmoDev" width="100" style="border-radius: 8px;">
+<td width="220" valign="top">
+<img src="./cosmodev.jpg" alt="CosmoDev" width="200" style="border-radius: 8px;">
 </td>
 <td valign="top">
 
