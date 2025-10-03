@@ -3,6 +3,8 @@
 
 ## 🙋‍♂️ Desarrollado por:
 
+![CosmoDev](./cosmodev.png)
+
 **Alexander Rubio Cáceres**
 - Ingeniero de Software
 - Especialista en la Seguridad de la Información
