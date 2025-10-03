@@ -182,6 +182,8 @@ Sigue estos pasos para ejecutar la API localmente:
   - Insomnia_MillionApi.yaml
 ```
 
+![Insomnia](./Insomnia.png)
+
 ---
 
 ## 📂 Endpoints de ejemplo
