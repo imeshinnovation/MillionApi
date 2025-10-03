@@ -17,7 +17,7 @@ Alexander Rubio Cáceres
 
 ## 📖 Descripción
 
-MillionApi es un servicio backend desarrollado en C# (.NET) que ofrece una API para manejar operaciones del dominio (negocio) de “Million”. El proyecto está organizado bajo principios como Arquitectura Limpia (Clean Architecture) y los principios SOLID, con capas claramente separadas: presentación, dominio, infraestructura, etc.
+MillionApi es un servicio backend desarrollado en C# (.NET Core 9) que ofrece una API para manejar operaciones del dominio (negocio) de “Million”. El proyecto está organizado bajo principios como Arquitectura Limpia (Clean Architecture) y los principios SOLID, con capas claramente separadas: presentación, dominio, infraestructura, etc.
 
 **El ciclo de vida de desarrollo del software seguro (SSDLC)**
 
