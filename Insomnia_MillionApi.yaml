@@ -1,0 +1,145 @@
+type: spec.insomnia.rest/5.0
+name: MillionAPI-Rest
+meta:
+  id: wrk_2ebc336b7ec640419309ac9232c376ff
+  created: 1759492535536
+  modified: 1759492535536
+  description: ""
+collection:
+  - url: "{{MillionApi}}/Property"
+    name: Add Property
+    meta:
+      id: req_424709696c204060ac7fdae219818925
+      created: 1759492548286
+      modified: 1759492961152
+      isPrivate: false
+      description: ""
+      sortKey: -1759492548286
+    method: POST
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        	"IdOwner": "656f81e92f1a4c3a9c2b4678",
+        	"Name": "Apartamento en Venta en la Calera",
+        	"AddressProperty": "Calle Falsa 123",
+        	"PriceProperty": 970000000,
+        	"ImageUrl": "https://cdn4.fincaraiz.com.co/repo/img/th.outside800x600.6848c57bb379a_infocdn__kfwfjvmwdmfnfj1mz8bbisq42gecqeyaflxv1pkqjpg.jpg"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{MillionApi}}/Property"
+    name: Get All Properties
+    meta:
+      id: req_d96905c8a6714819bde8dc73f7df286d
+      created: 1759492973309
+      modified: 1759493002651
+      isPrivate: false
+      description: ""
+      sortKey: -1759492973309
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{MillionApi}}/Property/?name=Calera"
+    name: Get By Name
+    meta:
+      id: req_b56deebe9624427c838bbc87d19e8d26
+      created: 1759493348235
+      modified: 1759493409359
+      isPrivate: false
+      description: ""
+      sortKey: -1759492760797.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{MillionApi}}/Property/?address=Bogot"
+    name: Get By Address
+    meta:
+      id: req_41219f404eff4157a082a86871b5e9c3
+      created: 1759493432240
+      modified: 1759493454041
+      isPrivate: false
+      description: ""
+      sortKey: -1759492654541.75
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{MillionApi}}/Property/?minPrice=5000000&maxPrice=1000000000"
+    name: Get Filter Price
+    meta:
+      id: req_ccd6bea6da174a44b0e8b3ceb0cdd60f
+      created: 1759493481951
+      modified: 1759493552968
+      isPrivate: false
+      description: ""
+      sortKey: -1759492601413.875
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_de34feb3f8b0ddf22f364c58749cdcae81c4fadf
+    created: 1759492535541
+    modified: 1759492535541
+environments:
+  name: Base Environment
+  meta:
+    id: env_de34feb3f8b0ddf22f364c58749cdcae81c4fadf
+    created: 1759492535540
+    modified: 1759492891826
+    isPrivate: false
+  data:
+    MillionApi: http://localhost:8080/api
+spec:
+  meta:
+    id: spc_a4d4ecbd9a5045d6bc3eb5294db1b10f
+    created: 1759492535538
+    modified: 1759492535538

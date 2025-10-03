@@ -18,7 +18,7 @@ namespace MillionApi.Tests.Infrastructure
         {
             var settings = new MongoDBSettings
             {
-                ConnectionString = "mongodb://localhost:27017",
+                ConnectionString = "mongodb://host.docker.internal:27017",
                 DatabaseName = "TestDatabase",
                 CollectionName = "TestProperties"
             };
@@ -47,7 +47,7 @@ namespace MillionApi.Tests.Infrastructure
             var mockOptions = new Mock<Microsoft.Extensions.Options.IOptions<MillionApi.Infrastructure.Persistence.MongoDBSettings>>();
             mockOptions.Setup(x => x.Value).Returns(new MillionApi.Infrastructure.Persistence.MongoDBSettings
             {
-                ConnectionString = "mongodb://localhost:27017",
+                ConnectionString = "mongodb://host.docker.internal:27017",
                 DatabaseName = "TestDatabase",
                 CollectionName = "TestProperties"
             });

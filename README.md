@@ -155,13 +155,23 @@ Sigue estos pasos para ejecutar la API localmente:
    dotnet run --project MillionApi/MillionApi.csproj
    ```
 
-5. El Proyecto se puede desplegar en un contenedor Docker:
-   ```bash
-   docker build -t millionapi .
-   docker run -p 5000:80 millionapi
-   ```
+5. El Proyecto se puede desplegar en Arquitectura Docker:
 
-6. Accede a los endpoints (por ejemplo, usando Postman) o al archivo `MillionApi.http` que contiene ejemplos de peticiones.
+  Servicios:
+  - mongodbapi
+  - millionapi
+
+   ```bash
+   
+   dotnet publish -c Release -o ./publish
+   docker-compose up -d --build
+
+   ```
+6. Consumir API Rest:
+   http://localhost:8080/api/Property
+
+7. Se incluye Set de Pruebas con Insomnia.
+   - Insomnia_MillionApi.yaml
 
 ---
 

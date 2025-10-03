@@ -1,0 +1,20 @@
+services:
+
+  mongodbapi:
+    image: mongo
+    container_name: mongodbapi
+    hostname: mongodbapi
+    ports:
+      - "27017:27017"
+
+  millionapi:
+    build:
+      context: .
+    container_name: millionapi
+    hostname: millionapi
+    extra_hosts: 
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - mongodbapi
+    ports:
+      - "8080:8080"
