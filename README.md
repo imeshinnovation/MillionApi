@@ -27,18 +27,18 @@
 
 ---
 
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=book)](LICENSE)
-[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com/)
-[![Architecture](https://img.shields.io/badge/Architecture-Domain%20Driven%20Design-orange?style=for-the-badge&logo=diagram-project)](https://domainlanguage.com/ddd/)
-[![Stack](https://img.shields.io/badge/Stack-.NET%20%2B%20MongoDB-47A248?style=for-the-badge&logo=database)](https://www.mongodb.com/)
-[![API](https://img.shields.io/badge/API-REST%20ful-FF6C37?style=for-the-badge&logo=api)](https://restfulapi.net/)
-[![Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-orange?style=for-the-badge&logo=layer-group)](https://blog.cleancoder.com/)
-[![SSDLC](https://img.shields.io/badge/SDLC-Security%20First-red?style=for-the-badge&logo=shield-alt)](https://owasp.org/www-project-proactive-controls/)
-[![Security](https://img.shields.io/badge/Security-Shift%20Left-blue?style=for-the-badge&logo=user-shield)](https://devops.com/shifting-security-to-the-left/)
-[![Testing](https://img.shields.io/badge/Testing-NUnit-green?style=for-the-badge&logo=flask)](https://nunit.org/)
-[![API Testing](https://img.shields.io/badge/Tested%20with-Insomnia-5849BE?style=for-the-badge&logo=insomnia)](https://insomnia.rest/)
-[![Containerized](https://img.shields.io/badge/Containerized-Docker-2496ED?style=for-the-badge&logo=docker)](https://www.docker.com/)
-[![Docker Compose](https://img.shields.io/badge/Orchestration-Docker%20Compose-2496ED?style=for-the-badge&logo=docker)](https://docs.docker.com/compose/)
+[![License](https://img.shields.io/badge/📄_License-MIT-blue?style=for-the-badge&logo=book)](LICENSE)
+[![.NET](https://img.shields.io/badge/⚡_.NET-9.0-512BD4?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com/)
+[![Architecture](https://img.shields.io/badge/🏗️_Architecture-DDD-orange?style=for-the-badge&logo=diagram-project)](https://domainlanguage.com/ddd/)
+[![Stack](https://img.shields.io/badge/🛠️_Stack-.NET%20%2B%20MongoDB-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+[![API](https://img.shields.io/badge/🌐_API-REST%20ful-FF6C37?style=for-the-badge&logo=rest)](https://restfulapi.net/)
+[![Architecture](https://img.shields.io/badge/🏛️_Architecture-Clean-orange?style=for-the-badge&logo=layer-group)](https://blog.cleancoder.com/)
+[![SSDLC](https://img.shields.io/badge/🔒_SDLC-Security%20First-red?style=for-the-badge&logo=shield-alt)](https://owasp.org/www-project-proactive-controls/)
+[![Security](https://img.shields.io/badge/⬅️_Security-Shift%20Left-blue?style=for-the-badge&logo=user-shield)](https://devops.com/shifting-security-to-the-left/)
+[![Testing](https://img.shields.io/badge/🧪_Testing-NUnit-green?style=for-the-badge&logo=testtube)](https://nunit.org/)
+[![API Testing](https://img.shields.io/badge/📡_Tested%20with-Insomnia-5849BE?style=for-the-badge&logo=insomnia)](https://insomnia.rest/)
+[![Containerized](https://img.shields.io/badge/🐳_Containerized-Docker-2496ED?style=for-the-badge&logo=docker)](https://www.docker.com/)
+[![Docker Compose](https://img.shields.io/badge/🎼_Orchestration-Docker%20Compose-2496ED?style=for-the-badge&logo=docker)](https://docs.docker.com/compose/)
 
 ---
 
