@@ -27,16 +27,16 @@
 
 ---
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)](https://dotnet.microsoft.com/)
-[![Architecture](https://img.shields.io/badge/Architecture-Domain%20Driven%20Design-orange)](https://domainlanguage.com/ddd/)
-[![Stack](https://img.shields.io/badge/Stack-.NET%20%2B%20MongoDB-47A248)](https://www.mongodb.com/)
-[![API](https://img.shields.io/badge/API-REST%20ful-FF6C37)](https://restfulapi.net/)
-[![Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-orange)](https://blog.cleancoder.com/)
-[![SSDLC](https://img.shields.io/badge/SDLC-Security%20First-red)](https://owasp.org/www-project-proactive-controls/)
-[![Security](https://img.shields.io/badge/Security-Shift%20Left-blue)](https://devops.com/shifting-security-to-the-left/)
-[![Testing](https://img.shields.io/badge/Testing-NUnit-green)](https://nunit.org/)
-[![API Testing](https://img.shields.io/badge/Tested%20with-Insomnia-5849BE)](https://insomnia.rest/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?style=for-the-badge)](https://dotnet.microsoft.com/)
+[![Architecture](https://img.shields.io/badge/Architecture-Domain%20Driven%20Design-orange?style=for-the-badge)](https://domainlanguage.com/ddd/)
+[![Stack](https://img.shields.io/badge/Stack-.NET%20%2B%20MongoDB-47A248?style=for-the-badge)](https://www.mongodb.com/)
+[![API](https://img.shields.io/badge/API-REST%20ful-FF6C37?style=for-the-badge)](https://restfulapi.net/)
+[![Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-orange?style=for-the-badge)](https://blog.cleancoder.com/)
+[![SSDLC](https://img.shields.io/badge/SDLC-Security%20First-red?style=for-the-badge)](https://owasp.org/www-project-proactive-controls/)
+[![Security](https://img.shields.io/badge/Security-Shift%20Left-blue?style=for-the-badge)](https://devops.com/shifting-security-to-the-left/)
+[![Testing](https://img.shields.io/badge/Testing-NUnit-green?style=for-the-badge)](https://nunit.org/)
+[![API Testing](https://img.shields.io/badge/Tested%20with-Insomnia-5849BE?style=for-the-badge)](https://insomnia.rest/)
 
 ---
 
