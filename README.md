@@ -1,9 +1,9 @@
 
 # MillionApi
 
-**Autor / Owner**:
+** 🙋‍♂️ Developer**:
 
-Alexander Rubio Cáceres
+**Alexander Rubio Cáceres**
 - Ingeniero de Software
 - Especialista en la Seguridad de la Información
 - Desarrollador FullStack
@@ -179,12 +179,3 @@ Resumen de pruebas: total: 7; con errores: 0; correcto: 7;
 ## 📝 Licencia
 
 **Licencia del proyecto:** MIT
-
----
-
-## 🙋‍♂️ Contacto
-
-Alexander Rubio Cáceres  
-Emails:
-  - imesh.innovation@gmail.com  
-  - sigueme.android@gmail.com  
