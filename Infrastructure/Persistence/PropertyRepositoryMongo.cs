@@ -13,7 +13,6 @@ namespace MillionApi.Infrastructure.Persistence
         {
             var settings = mongoSettings.Value;
 
-            // Validaciones
             if (string.IsNullOrEmpty(settings.ConnectionString))
                 throw new ArgumentException("ConnectionString cannot be null or empty");
 

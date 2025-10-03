@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using MillionApi.Application.Services;
 using MillionApi.Domain.Entities;
 using MillionApi.Domain.Interfaces;
 using MillionApi.Presentation.Controllers;
@@ -27,16 +26,12 @@ namespace MillionApi.Tests.Presentation
             mockService.Setup(s => s.GetPropertyById("123"))
                        .ReturnsAsync(new Property { Id = "123", Name = "Casa Bonita", PriceProperty = 3000m });
             var controller = new PropertyController(mockService.Object);
-            // Arrange
 
-
-            // Act
             var result = controller.GetProperty("123");
 
-            // El resultado es Task<IActionResult>, necesitamos obtener el resultado
             Assert.That(result, Is.InstanceOf<Task<IActionResult>>());
 
-            var actionResult = result.Result; // ← Obtener el resultado del Task
+            var actionResult = result.Result;
             Assert.That(actionResult, Is.InstanceOf<OkObjectResult>());
             var okResult = actionResult as OkObjectResult;
             Assert.That(okResult!.StatusCode, Is.EqualTo(200));
@@ -46,7 +41,6 @@ namespace MillionApi.Tests.Presentation
         public async Task GetProperty_ShouldReturnNotFound_WhenPropertyDoesNotExist()
         {
             var mockService = new Mock<IPropertyService>();
-            // Usar Task.FromResult explícitamente
             Property nullProperty = null!;
             mockService.Setup(s => s.GetPropertyById("999"))
                        .ReturnsAsync(nullProperty);

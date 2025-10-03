@@ -16,12 +16,11 @@ namespace MillionApi.Tests.Infrastructure
         [SetUp]
         public void SetUp()
         {
-            // Configuración mock válida para tests
             var settings = new MongoDBSettings
             {
                 ConnectionString = "mongodb://localhost:27017",
                 DatabaseName = "TestDatabase",
-                CollectionName = "TestProperties" // ¡NO vacío!
+                CollectionName = "TestProperties"
             };
 
             _mockOptions = new Mock<IOptions<MongoDBSettings>>();
@@ -48,7 +47,7 @@ namespace MillionApi.Tests.Infrastructure
             var mockOptions = new Mock<Microsoft.Extensions.Options.IOptions<MillionApi.Infrastructure.Persistence.MongoDBSettings>>();
             mockOptions.Setup(x => x.Value).Returns(new MillionApi.Infrastructure.Persistence.MongoDBSettings
             {
-                ConnectionString = "mongodb://mastermind:M4st3rm1nd@11.0.0.3:27017/?authSource=admin",
+                ConnectionString = "mongodb://localhost:27017",
                 DatabaseName = "TestDatabase",
                 CollectionName = "TestProperties"
             });

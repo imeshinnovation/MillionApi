@@ -45,7 +45,7 @@ namespace MillionApi.Presentation.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetProperty(string id)  // ← Debe tener async Task
+        public async Task<IActionResult> GetProperty(string id)
         {
             var property = await _propertyService.GetPropertyById(id);
             if (property == null)

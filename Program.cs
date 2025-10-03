@@ -5,11 +5,9 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// MongoDB config
 builder.Services.Configure<MongoDBSettings>(
     builder.Configuration.GetSection("MongoDB"));
 
-// DI: usamos interfaz y repositorio
 builder.Services.AddScoped<IPropertyRepository, PropertyRepositoryMongo>();
 builder.Services.AddScoped<IPropertyService, PropertyService>();
 
