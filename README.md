@@ -169,7 +169,7 @@ Sigue estos pasos para ejecutar la API localmente:
 
 | Verbo | Ruta | Descripción | Parámetros / Body |
 |-------|------|-------------|---------------------|
-| GET   | /api/Property | Obtiene todos los items | — |
+| GET   | /api/Property | Obtiene todos los items por nombre, dirección, precio mínimo, precio máximo | — |
 | GET   | /api/Property/{id} | Obtiene los registros de un item | — |
 | POST  | /api/Property | Crea un nuevo item | `{ "name": "...", "valor": 123 }` |
 
