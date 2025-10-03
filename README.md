@@ -12,6 +12,7 @@
 - imesh.innovation@gmail.com  
 - sigueme.android@gmail.com  
 
+---
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-9.0-512BD4)](https://dotnet.microsoft.com/)
