@@ -4,9 +4,9 @@
 **Autor / Owner**:
 
 Alexander Rubio Cáceres
-Ingeniero de Software
-Especialista en la Seguridad de la Información
-Desarrollador FullStack
+- Ingeniero de Software
+- Especialista en la Seguridad de la Información
+- Desarrollador FullStack
 
 **Emails de Contacto**:  
 - imesh.innovation@gmail.com  
