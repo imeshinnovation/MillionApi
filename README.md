@@ -1,7 +1,7 @@
 
 # MillionApi
 
-** 🙋‍♂️ Developer**:
+## 🙋‍♂️ Developer
 
 **Alexander Rubio Cáceres**
 - Ingeniero de Software
