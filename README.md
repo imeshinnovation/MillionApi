@@ -169,13 +169,17 @@ Sigue estos pasos para ejecutar la API localmente:
    ```
 6. Consumir API Rest:
 
+```bash
   URL EndPoint:
   - http://localhost:8080/api/Property
+  ```
 
 7. Se incluye Set de Pruebas.
 
+```bash
   Cliente Rest Insomnia:
   - Insomnia_MillionApi.yaml
+```
 
 ---
 
