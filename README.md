@@ -14,7 +14,7 @@ MillionApi es un servicio backend desarrollado en C# (.NET) que ofrece una API p
 
 **El ciclo de vida de desarrollo del software seguro (SSDLC)**
 
-Como Especialista en Seguridad de la Información hago incapié en la implementación de procesos de seguridad eficaces y la importancia que los equipos apliquen el enfoque shift left, es decir, tomen las medidas de protección desde las primeras etapas del SDLC y en cada una de ellas. Hay ciertos pasos que se pueden seguir en cada etapa para lograr el ciclo de vida de desarrollo del software seguro (SSDLC), al final del proyecto se realiza la evaluación de componentes para identificar posibles vulnerabilidades en librerías de terceros usados por NuGet.
+Como Especialista en Seguridad de la Información hago incapié en la implementación de procesos de seguridad eficaces y la importancia que los equipos apliquen el enfoque shift left, es decir, tomen las medidas de protección desde las primeras etapas del SDLC y en cada una de ellas. Hay ciertos pasos que se pueden seguir en cada etapa para lograr el ciclo de vida de desarrollo del software seguro (SSDLC), al final del proyecto se realiza la evaluación de componentes para identificar posibles vulnerabilidades en librerías de terceros usadas por NuGet.
 
 
 ---
