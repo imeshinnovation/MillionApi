@@ -3,7 +3,7 @@
 
 ## 🙋‍♂️ Desarrollado por:
 
-![CosmoDev](./cosmodev.png)
+![CosmoDev](./cosmodev.jpg)
 
 **Alexander Rubio Cáceres**
 - Ingeniero de Software
