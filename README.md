@@ -1,7 +1,7 @@
 
 # MillionApi
 
-## 🙋‍♂️ Desarrollado por:
+## Desarrollado por:
 
 <table width="100%">
 <tr>
