@@ -168,7 +168,9 @@ Sigue estos pasos para ejecutar la API localmente:
 
    ```
 6. Consumir API Rest:
-   http://localhost:8080/api/Property
+
+  URL EndPoint:
+  - http://localhost:8080/api/Property
 
 7. Se incluye Set de Pruebas.
 
