@@ -29,8 +29,9 @@
 
 [![License](https://img.shields.io/badge/📄_License-MIT-blue?style=for-the-badge&logo=book)](LICENSE)
 [![.NET](https://img.shields.io/badge/⚡_.NET-9.0-512BD4?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com/)
+[![MongoDB](https://img.shields.io/badge/🍃_Database-MongoDB-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
 [![Architecture](https://img.shields.io/badge/🏗️_Architecture-DDD-orange?style=for-the-badge&logo=diagram-project)](https://domainlanguage.com/ddd/)
-[![Stack](https://img.shields.io/badge/🛠️_Stack-.NET%20%2B%20MongoDB-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+[![Stack](https://img.shields.io/badge/🛠️_Stack-.NET%20%2B%20MongoDB-47A248?style=for-the-badge&logo=database)](https://www.mongodb.com/)
 [![API](https://img.shields.io/badge/🌐_API-REST%20ful-FF6C37?style=for-the-badge&logo=rest)](https://restfulapi.net/)
 [![Architecture](https://img.shields.io/badge/🏛️_Architecture-Clean-orange?style=for-the-badge&logo=layer-group)](https://blog.cleancoder.com/)
 [![SSDLC](https://img.shields.io/badge/🔒_SDLC-Security%20First-red?style=for-the-badge&logo=shield-alt)](https://owasp.org/www-project-proactive-controls/)
