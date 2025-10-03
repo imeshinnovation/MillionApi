@@ -110,7 +110,7 @@ graph LR
 - **DTOs y mapeo**  
   - Para evitar acoplamiento entre la representación externa (API) y las entidades del dominio, se usan objetos DTO y mapeo (puede usarse herramientas como AutoMapper).
 
-- **Separación de preocupaciones**  
+- **Separación de responsabilidades**  
   - Cada capa tiene responsabilidades claras (presentación, lógica de negocio, persistencia).  
   - Evitar “código espagueti” mezclando capas.
 
