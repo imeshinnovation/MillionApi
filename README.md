@@ -96,6 +96,18 @@ graph LR
   - Usar pruebas unitarias para la capa de dominio y servicios de aplicación.  
   - Usar pruebas de integración para repositorios e infraestructura.
 
+- **Validación de Vulnerabilidades en los Paquetes o Shadow Mapping**
+  ```bash
+  cd MillionApi
+  # Análisis de Dependencias
+  dotnet list package --vulnerable --include-transitive
+  # Build con todos los Analizadores
+  dotnet build /p:AnalysisMode=AllEnabledByDefault /warnaserror
+  # Restaurar y ver warnings de seguridad
+  dotnet restore
+  dotnet build --verbosity normal | grep -i "warning\|security"
+  ```
+
 ---
 
 ## 🚀 Cómo levantar el proyecto (guía rápida)
