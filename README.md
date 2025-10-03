@@ -6,7 +6,7 @@
 **Alexander Rubio Cáceres**
 - Ingeniero de Software
 - Especialista en la Seguridad de la Información
-- Desarrollador FullStack
+- Desarrollador FullStack Senior
 
 **Emails de Contacto**:  
 - imesh.innovation@gmail.com  
