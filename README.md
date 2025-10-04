@@ -198,9 +198,6 @@ Resumen de pruebas: total: 7; con errores: 0; correcto: 7;
 
 ---
 
-
----
-
 ## 📝 Licencia
 
 **Licencia del proyecto:** MIT
