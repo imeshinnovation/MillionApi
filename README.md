@@ -1,30 +1,6 @@
 
 # Documentación del Proyecto MillionApi [API RestFull]
 
-## Desarrollado por:
-
-<table width="100%">
-<tr>
-<td width="220" valign="top">
-<img src="./cosmodev.jpeg" alt="CosmoDev" width="200" style="border-radius: 8px;">
-</td>
-<td valign="top">
-
-### Alexander Rubio Cáceres
-
-**🏅 Profesional**
-- Ingeniero de Software
-- Especialista en la Seguridad de la Información
-- Desarrollador FullStack Senior
-
-**📧 Contacto**
-- imesh.innovation@gmail.com  
-- sigueme.android@gmail.com
-
-</td>
-</tr>
-</table>
-
 ---
 
 [![License](https://img.shields.io/badge/📄_License-MIT-blue?style=for-the-badge&logo=book)](LICENSE)
@@ -228,3 +204,13 @@ Resumen de pruebas: total: 7; con errores: 0; correcto: 7;
 ## 📝 Licencia
 
 **Licencia del proyecto:** MIT
+
+## 👤 Autor
+
+**Alexander Rubio Cáceres**  
+- Ingeniero de Software
+- Especialista en Seguridad de la Información
+- Desarrollador FulStack Senior
+
+### Email:
+📧 imesh.innovation@gmail.com | 📧 sigueme.android@gmail.com  
