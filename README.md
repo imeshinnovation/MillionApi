@@ -210,7 +210,7 @@ Resumen de pruebas: total: 7; con errores: 0; correcto: 7;
 **Alexander Rubio Cáceres**  
 - Ingeniero de Software
 - Especialista en Seguridad de la Información
-- Desarrollador FulStack Senior
+- Desarrollador FullStack Senior
 
 ### Email:
 📧 imesh.innovation@gmail.com | 📧 sigueme.android@gmail.com  
